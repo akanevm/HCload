@@ -1,4 +1,5 @@
 #!/bin/sh
+cd $(dirname $0)
 git pull
 HOST=`hostname`
 LOAD_FILE=HCload-$HOST.json
